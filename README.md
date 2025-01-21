@@ -5,13 +5,25 @@
 ### El contenido de esta actividad está en 
 
 ```
-- **app / Http / Controllers / UsuarioController.php
-- **app / Models / Pedido.php
-- **app / Models / Usuario.php
-- **database / migrations / 2025_01_21_162418_create_usuarios_table.php
-- **database / migrations / 2025_01_21_162448_create_pedidos_table.php
-- **routes / web.php
-- **.env
+/ app / Http / Controllers / UsuarioController.php
+```
+```
+/ app / Models / Pedido.php
+```
+```
+/app / Models / Usuario.php
+```
+```
+/ database / migrations / 2025_01_21_162418_create_usuarios_table.php
+```
+```
+/ database / migrations / 2025_01_21_162448_create_pedidos_table.php
+```
+```
+/ routes / web.php
+```
+```
+/ .env
 ```
 
 ## Indicaciones:
