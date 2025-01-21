@@ -2,7 +2,7 @@
 
 ## ACTIVIDAD 2: GUIA CONSULTAS SQL EN LARAVEL (QUERY BUILDER & ORM)
 
-### El contenido de esta actividad está en 
+### El contenido de esta actividad está en (cada una es una ruta dentro del proyecto de cada archivo modificado para este):
 
 ```
 / app / Http / Controllers / UsuarioController.php
