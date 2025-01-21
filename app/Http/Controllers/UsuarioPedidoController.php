@@ -13,6 +13,10 @@ class UsuarioPedidoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    /*
+       1. Inserta al menos 5 registros en las tablas de usuarios y pedidos
+    */
     public function insertarRegistros()
     {
         // Inserta 5 usuarios en la tabla 'usuarios'
@@ -44,6 +48,9 @@ class UsuarioPedidoController extends Controller
         return response()->json(['message' => 'Registros insertados exitosamente']);
     }
 
+    /*
+        2. Obtén la información detallada de los pedidos, incluyendo el nombre y correo electrónico de los usuarios.
+    */
     public function obtenerPedidosConUsuarios()
     {
         // Consulta los pedidos con información de los usuarios relacionados
@@ -66,6 +73,9 @@ class UsuarioPedidoController extends Controller
         return response()->json($resultado);
     }
 
+    /*
+        3. Recupera todos los pedidos cuyo total esté en el rango de $100 a $250.
+    */
     public function obtenerPedidosPorRango()
     {
         // Consultar los pedidos cuyo total esté entre 100 y 250
@@ -88,6 +98,9 @@ class UsuarioPedidoController extends Controller
         return response()->json($resultado);
     }
 
+    /*
+    4. Encuentra todos los usuarios cuyos nombres comiencen con la letra "R".
+    */
     public function obtenerUsuariosPorLetra()
     {
         // Consultar los usuarios cuyos nombres comiencen con "R"
@@ -106,6 +119,9 @@ class UsuarioPedidoController extends Controller
         return response()->json($resultado);
     }
 
+    /*
+    5. Calcula el total de registros en la tabla de pedidos para el usuario con ID 5.
+    */
     public function contarPedidosPorUsuario($usuarioId = 5)
     {
         // Contar los pedidos asociados al usuario con ID específico
@@ -117,6 +133,9 @@ class UsuarioPedidoController extends Controller
         ]);
     }
 
+    /*
+    6. Recupera todos los pedidos junto con la información de los usuarios, ordenándolos de forma descendente según el total del pedido.
+    */
     public function obtenerPedidosOrdenados()
     {
         // Consultar los pedidos junto con los usuarios, ordenados por el total en forma descendente
@@ -141,6 +160,9 @@ class UsuarioPedidoController extends Controller
         return response()->json($resultado);
     }
 
+    /*
+    7. Obtén la suma total del campo "total" en la tabla de pedidos.
+    */
     public function obtenerSumaTotalPedidos()
     {
         // Calcular la suma total del campo "total" en la tabla de pedidos
@@ -151,6 +173,9 @@ class UsuarioPedidoController extends Controller
         ]);
     }
 
+    /*
+    8. Encuentra el pedido más económico, junto con el nombre del usuario asociado.
+    */
     public function obtenerPedidoMasEconomico()
     {
         // Consultar el pedido con el menor total y cargar el usuario asociado
@@ -179,6 +204,9 @@ class UsuarioPedidoController extends Controller
         return response()->json($resultado);
     }
 
+    /*
+    9. Obtén el producto, la cantidad y el total de cada pedido, agrupándolos por usuario.
+    */
     public function obtenerPedidosAgrupadosPorUsuario()
     {
         // Consultar usuarios con sus pedidos
