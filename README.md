@@ -40,20 +40,20 @@ consultas SQL.
 
 ## consultas SQL en laravel:
 
-> Ejecutar ruta: http://127.0.0.1:8000/insertar-registros para insertar los registros de USUARIOS y PEDIDOS en la base de datos.
+> **Ejecutar ruta:** ***/insertar-registros*** para insertar los registros de USUARIOS y PEDIDOS en la base de datos.
 
-> Ejecutar ruta: http://127.0.0.1:8000/obtener-pedidos para obtener la información detallada de los pedidos, incluyendo el nombre y correo electrónico de los usuarios.
+> **Ejecutar ruta:** ***/obtener-pedidos*** para obtener la información detallada de los pedidos, incluyendo el nombre y correo electrónico de los usuarios.
 
-> Ejecutar ruta: http://127.0.0.1:8000/pedidos-rango para obtener todos los pedidos cuyo total esté en el rango de $100 a $250.
+> **Ejecutar ruta:** ***/pedidos-rango*** para obtener todos los pedidos cuyo total esté en el rango de $100 a $250.
 
-> Ejecutar ruta: http://127.0.0.1:8000/usuarios-letra-r para obtener todos los usuarios cuyos nombres comiencen con la letra "R".
+> **Ejecutar ruta:** ***/usuarios-letra-r*** para obtener todos los usuarios cuyos nombres comiencen con la letra "R".
 
-> Ejecutar ruta: http://127.0.0.1:8000/contar-pedidos/5 para obtener el calculo total de registros en la tabla de pedidos para el usuario con ID 5.
+> **Ejecutar ruta:** ***/contar-pedidos/5*** para obtener el calculo total de registros en la tabla de pedidos para el usuario con ID 5.
 
-> Ejecutar ruta: http://127.0.0.1:8000/pedidos-ordenados para obtener todos los pedidos junto con la información de los usuarios, ordenándolos de forma descendente según el total del pedido
+> **Ejecutar ruta:** ***/pedidos-ordenados*** para obtener todos los pedidos junto con la información de los usuarios, ordenándolos de forma descendente según el total del pedido
 
-> Ejecutar ruta: http://127.0.0.1:8000/suma-total-pedidos para obtener la suma total del campo "total" en la tabla de pedidos.
+> **Ejecutar ruta:** ***/suma-total-pedidos*** para obtener la suma total del campo "total" en la tabla de pedidos.
 
-> Ejecutar ruta: http://127.0.0.1:8000/pedido-mas-economico para obtener el pedido más económico, junto con el nombre del usuario asociado.
+> **Ejecutar ruta:** ***/pedido-mas-economico*** para obtener el pedido más económico, junto con el nombre del usuario asociado.
 
-> Ejecutar ruta: http://127.0.0.1:8000/pedidos-agrupados para obtener el producto, la cantidad y el total de cada pedido, agrupándolos por usuario.
+> **Ejecutar ruta:** ***/pedidos-agrupados*** para obtener el producto, la cantidad y el total de cada pedido, agrupándolos por usuario.
