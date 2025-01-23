@@ -99,7 +99,7 @@ class UsuarioPedidoController extends Controller
     }
 
     /*
-    4. Encuentra todos los usuarios cuyos nombres comiencen con la letra "R".
+        4. Encuentra todos los usuarios cuyos nombres comiencen con la letra "R".
     */
     public function obtenerUsuariosPorLetra()
     {
@@ -120,7 +120,7 @@ class UsuarioPedidoController extends Controller
     }
 
     /*
-    5. Calcula el total de registros en la tabla de pedidos para el usuario con ID 5.
+        5. Calcula el total de registros en la tabla de pedidos para el usuario con ID 5.
     */
     public function contarPedidosPorUsuario($usuarioId = 5)
     {
@@ -134,7 +134,7 @@ class UsuarioPedidoController extends Controller
     }
 
     /*
-    6. Recupera todos los pedidos junto con la información de los usuarios, ordenándolos de forma descendente según el total del pedido.
+        6. Recupera todos los pedidos junto con la información de los usuarios, ordenándolos de forma descendente según el total del pedido.
     */
     public function obtenerPedidosOrdenados()
     {
@@ -161,7 +161,7 @@ class UsuarioPedidoController extends Controller
     }
 
     /*
-    7. Obtén la suma total del campo "total" en la tabla de pedidos.
+        7. Obtén la suma total del campo "total" en la tabla de pedidos.
     */
     public function obtenerSumaTotalPedidos()
     {
@@ -174,7 +174,7 @@ class UsuarioPedidoController extends Controller
     }
 
     /*
-    8. Encuentra el pedido más económico, junto con el nombre del usuario asociado.
+        8. Encuentra el pedido más económico, junto con el nombre del usuario asociado.
     */
     public function obtenerPedidoMasEconomico()
     {
@@ -205,7 +205,7 @@ class UsuarioPedidoController extends Controller
     }
 
     /*
-    9. Obtén el producto, la cantidad y el total de cada pedido, agrupándolos por usuario.
+        9. Obtén el producto, la cantidad y el total de cada pedido, agrupándolos por usuario.
     */
     public function obtenerPedidosAgrupadosPorUsuario()
     {
